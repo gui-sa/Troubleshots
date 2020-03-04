@@ -39,7 +39,7 @@ git config --global user.email "guime.sa9@gmail.com"
 2 - Region & Language
 3 - +
 4 - English United states
-5 - English(UK, intl., with dead keys)
+5 - English(US, intl., with dead keys)
 6 - choice option
 7 - erase older option
 --------------------------------------------------------
