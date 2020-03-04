@@ -87,10 +87,22 @@ https://www.pugetsystems.com/labs/hpc/How-To-Install-CUDA-10-1-on-Ubuntu-19-04-1
 segue o tutorial
 
 
+0 - Rode :
+		sudo apt-get update
 
-1 -  entra no cuda site e baixe o run file
+		sudo add-apt-repository ppa:graphics-drivers/ppa
 
-2 -  instala o .run sem os drivers
+		sudo apt-get install dkms build-essential
+
+		sudo apt-get install nvidia-driver-418
+		
+		nvidia-smi
+
+		sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev
+
+1 -  Entra no cuda site e baixe o run file
+
+2 -  Instala o .run sem os drivers
 
 3 - em um arquivo novo de nome preferencial digite:
 
@@ -112,7 +124,9 @@ Com o terminal aberto é possivel ver que o cuda esta sendo executado:
 
 		nvcc --version
 
-Mantenha o terminal aberto qndo for utilizá-lo
+		nvidia-smi
+
+Quando for usar algo que necessita do cuda, execute os comandos na janela em que o cuda foi aberto como source.
 
 
 -----------------------------------------------------------
