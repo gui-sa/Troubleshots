@@ -88,5 +88,34 @@ segue o tutorial
 
 
 
+1 -  entra no cuda site e baixe o run file
+
+2 -  instala o .run sem os drivers
+
+3 - em um arquivo novo de nome preferencial digite:
+
+
+
+		export PATH=$PATH:/usr/local/cuda-10.2/bin
+
+		export CUDADIR=/usr/local/cuda-10.2
+
+		export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.2/lib64
+
+
+4- Desta forma o cuda so se ativa qndo voce entrar no path do arquivo e digitar:
+
+		source <nome do arquivo>
+
+
+Com o terminal aberto é possivel ver que o cuda esta sendo executado:
+
+		nvcc --version
+
+Mantenha o terminal aberto qndo for utilizá-lo
+
+
+-----------------------------------------------------------
+
 
 
