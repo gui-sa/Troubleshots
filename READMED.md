@@ -94,7 +94,7 @@ segue o tutorial
 
 		sudo apt-get install dkms build-essential
 
-		sudo apt-get install nvidia-driver-418
+		sudo apt-get install nvidia-driver-440
 		
 		nvidia-smi
 
